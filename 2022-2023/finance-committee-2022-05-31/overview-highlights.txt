@@ -104,112 +104,112 @@ Fund Balance [962172] Budget
 
 ' EXPENSES
 
-Budget [0] Services & Supplies
+Budget [1] Services & Supplies
 :Services & Supplies #343ba1
 
 ' Includes 6000 non-departmental benefits
-Budget [0] Employees
+Budget [1] Employees
 :Employees #343ba1 >>
 
-Budget [0] Maintenance & Utilities
+Budget [1] Maintenance & Utilities
 :Maintenance & Utilities #343ba1
 
 ' Departmental plus non-departmental
-Budget [0] Education & Travel
+Budget [1] Education & Travel
 :Education & Travel #343ba1
 
-Budget [0] Reserves
+Budget [1] Reserves
 :Reserves #4cb636
 
-Services & Supplies [0] Charges to Applicants
+Services & Supplies [1] Charges to Applicants
 :Charges to Applicants #fdc407 >>
-Services & Supplies [0] Class Instructors & Refunds
+Services & Supplies [1] Class Instructors & Refunds
 :Class Instructors & Refunds #fdc407 >>
-Services & Supplies [0] Software & Licensing
+Services & Supplies [1] Software & Licensing
 :Software & Licensing #537a49
-Services & Supplies [0] Town Attorney
+Services & Supplies [1] Town Attorney
 :Town Attorney #343ba1
-Services & Supplies [0] Law Enforcement
+Services & Supplies [1] Law Enforcement
 :Law Enforcement #343ba1
 ' Emergency prep committee + WFPD fuel mitigation + fire prevention + 1/2 dispatch + Emergency Services Council JPA + safety element consultant
-Services & Supplies [0] Fire Safety
+Services & Supplies [1] Fire Safety
 :Fire Safety #f15334 >>
 
-Charges to Applicants [0] Engineer
+Charges to Applicants [1] Engineer
 :Engineer #fdc407
-Charges to Applicants [0] Geologist
+Charges to Applicants [1] Geologist
 :Geologist #fdc407
-Charges to Applicants [0] Plan Check Services
+Charges to Applicants [1] Plan Check Services
 :Plan Check Services #fdc407
-Charges to Applicants [0] Planner
+Charges to Applicants [1] Planner
 :Planner #fdc407
-Charges to Applicants [0] Attorney
+Charges to Applicants [1] Attorney
 :Attorney #fdc407
 
-Law Enforcement [0] Sheriff
+Law Enforcement [1] Sheriff
 :Sheriff #343ba1
-Law Enforcement [0] COPS Patrol
+Law Enforcement [1] COPS Patrol
 :COPS Patrol #343ba1
 ' Dispatch cost split 50/50 between law enforcement and fire
-Law Enforcement [0] Dispatch
+Law Enforcement [1] Dispatch
 :Dispatch #343ba1
 
-Maintenance & Utilities [0] Fire Safety
+Maintenance & Utilities [1] Fire Safety
 
-Fire Safety [0] EPC
+Fire Safety [1] EPC
 :EPC #f15334
-Fire Safety [0] WFPD Fuel Mitigation
+Fire Safety [1] WFPD Fuel Mitigation
 :WFPD Fuel Mitigation #f15334
-Fire Safety [0] Fire Prevention
+Fire Safety [1] Fire Prevention
 :Fire Prevention #f15334
 ' Dispatch cost split 50/50 between law enforcement and fire
-Fire Safety [0] Dispatch
-Fire Safety [0] Emergency Services Council JPA
+Fire Safety [1] Dispatch
+Fire Safety [1] Emergency Services Council JPA
 :Emergency Services Council JPA #f15334
-Fire Safety [0] ROW Trimming
+Fire Safety [1] ROW Trimming
 :ROW Trimming #f15334
-Fire Safety [0] Undergrounding Study
+Fire Safety [1] Undergrounding Study
 :Undergrounding Study #f15334
-Fire Safety [0] Evacuation Study
+Fire Safety [1] Evacuation Study
 :Evacuation Study #f15334
-Fire Safety [0] Safety Element
+Fire Safety [1] Safety Element
 :Safety Element #f15334
-Fire Safety [0] Open Space Fire Safety
+Fire Safety [1] Open Space Fire Safety
 :Open Space Fire Safety #f15334
-Fire Safety [0] Emergency Radio
+Fire Safety [1] Emergency Radio
 :Emergency Radio #f15334
 
-Employees [0] Employee Services
+Employees [1] Employee Services
 :Employee Services #343ba1 >>
 ' Includes 6000 non-departmental benefits
-Employees [0] Employee Benefits
+Employees [1] Employee Benefits
 :Employee Benefits #343ba1 >>
 
 ' town manager + clerk + finance = administration
-Employee Services [0] Administration
+Employee Services [1] Administration
 :Administration #343ba1
 ' planning (including grant) + building + code compliance = P&B
-Employee Services [0] Planning & Building
+Employee Services [1] Planning & Building
 :Planning & Building #343ba1
-Employee Services [0] Public Works
+Employee Services [1] Public Works
 :Public Works #343ba1
 
-Employee Benefits [0] Administration
-Employee Benefits [0] Planning & Building
-Employee Benefits [0] Public Works
+Employee Benefits [1] Administration
+Employee Benefits [1] Planning & Building
+Employee Benefits [1] Public Works
 
-Education & Travel [0] Administration
-Education & Travel [0] Planning & Building
-Education & Travel [0] Public Works
+Education & Travel [1] Administration
+Education & Travel [1] Planning & Building
+Education & Travel [1] Public Works
 
-Budget [0] Fixed Assets
+Budget [1] Fixed Assets
 :Fixed Assets #4cb636
 
 ' OBAG 2 resurfacing + resurfacing project + street resurfacing design
-Fixed Assets [0] Street Resurfacing
+Fixed Assets [1] Street Resurfacing
 :Street Resurfacing #4cb636
 ' Pedestrian study + rapid flashing beacon pre-design
-Fixed Assets [0] Ped Safety
+Fixed Assets [1] Ped Safety
 :Ped Safety #4cb636
 ' Evacuation study + undergrounding study + road remnant fire safety + 50% (frog pond+blue heron veg mgmt) + calwater radio
-Fixed Assets [0] Fire Safety
+Fixed Assets [1] Fire Safety
