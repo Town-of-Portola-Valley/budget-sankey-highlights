@@ -12,6 +12,24 @@
 
 :Budget #000000
 
+Sales and Use Tax [265000] Budget
+:Sales and Use Tax #343ba1 >>
+
+Secured [2780132] Property Taxes
+:Secured #343ba1
+' VLF had been under "secured" previously
+VLF [482153] Property Taxes
+:VLF #343ba1
+ERAF [294602] Property Taxes
+:ERAF #343ba1
+Unsecured [127188] Property Taxes
+:Unsecured #343ba1
+Real Property Transfers [150000] Property Taxes
+:Real Property Transfers #343ba1
+
+Property Taxes [3834075] Budget
+:Property Taxes #343ba1 << >>
+
 ARPA [564381] Intergovernmental Revenue
 :ARPA #f15334 >>
 ' Sales tax from special measures: A ($327,241), M ($167,717), W ($145,440)
@@ -30,19 +48,6 @@ Gas Taxes [138086] Intergovernmental Revenue
 Intergovernmental Revenue [1851809] Budget
 :Intergovernmental Revenue #343ba1 >>
 
-Sales and Use Tax [265000] Budget
-:Sales and Use Tax #343ba1 >>
-
-Secured [2780132] Property Taxes
-VLF [482153] Property Taxes
-' VLF had been under "secured" previously
-ERAF [294602] Property Taxes
-Unsecured [127188] Property Taxes
-Real Property Transfers [150000] Property Taxes
-
-Property Taxes [3834075] Budget
-:Property Taxes #343ba1 << >>
-
 Class Fees [113000] Charges for Services
 :Class Fees #fdc407 >>
 ' Planning & Building Fees includes "Charge for service" items but not "licenses and permits"
@@ -52,30 +57,20 @@ Planning & Building Fees [1543248] Charges for Services
 Charges for Services [1656248] Budget
 :Charges for Services #fdc407 >>
 
-Business License Tax [125000] Miscellaneous Income
-:Business License Tax #537a49 >>
-' $48,500 licenses and permits (planning); $266,000 licenses & permits (building); $22,279 (public works)
-Planning and Building Permits [336779] Miscellaneous Income
-:Planning and Building Permits #537a49 >>
-' $5256 Motor Vehicle, $9100 Homeowners property tax relief, $600 community hall misc revenue, open space donation $1,000
-' Subtotal: 15,956
-Miscellaneous Income [477735] Budget
-:Miscellaneous Income #537a49 >>
-
-' $221,450 open space, $497,925 general
-Energy [719375] Utility Users Tax
-' $116,646 open space, $274,104 general
-Water [390750] Utility Users Tax
 ' $16,951 open space, $35,732 general
 Telephone [52683] Utility Users Tax
+' $116,646 open space, $274,104 general
+Water [390750] Utility Users Tax
+' $221,450 open space, $497,925 general
+Energy [719375] Utility Users Tax
 
 Utility Users Tax [1162808] Budget
 :Utility Users Tax #537a49 >>
 
-Garbage [130991] Franchise Fees
-Energy [98907] Franchise Fees
-Cable [92990] Franchise Fees
 Water [57440] Franchise Fees
+Energy [98907] Franchise Fees
+Garbage [130991] Franchise Fees
+Cable [92990] Franchise Fees
 Franchise Fees [380328] Fees, Fines & Forfeitures
 :Franchise Fees #537a49
 
@@ -87,6 +82,16 @@ Franchise Fees [380328] Fees, Fines & Forfeitures
 
 Fees, Fines & Forfeitures [400828] Budget
 :Fees, Fines & Forfeitures #537a49 >>
+
+' $48,500 licenses and permits (planning); $266,000 licenses & permits (building); $22,279 (public works)
+Planning and Building Permits [336779] Miscellaneous Income
+:Planning and Building Permits #537a49 >>
+Business License Tax [125000] Miscellaneous Income
+:Business License Tax #537a49 >>
+' $5256 Motor Vehicle, $9100 Homeowners property tax relief, $600 community hall misc revenue, open space donation $1,000
+' Subtotal: 15,956
+Miscellaneous Income [477735] Budget
+:Miscellaneous Income #537a49 >>
 
 ' $1,482 COPS, Gas tax $2,985, open space $81,578, general $61,897, measure A $569, measure M $2,964
 Interest Earned [151475] Use of Money and Property
