@@ -1,0 +1,215 @@
+' Generate at this website: https://sankeymatic.com/build/
+' To use, go to the above website; select ALL text in this document
+' and paste to replace the example text in the "Inputs" field
+' Set diagram width to 2440 and height to 1350
+' Above the rendered diagram, click "Layout options..." and then
+' activate "Force all flow origins to the left edge"
+' You might need to tweak the flow slightly to reduce overlaps of
+' the bars for some categories that are too bendy.
+' Once done, you can export as SVG (ideally) or PNG to export or embed elsewhere.
+
+' REVENUES
+
+:Budget #000000
+
+ARPA [564381] Intergovernmental Revenue
+:ARPA #f15334 >>
+' Sales tax from special measures: A ($327,241), M ($167,717), W ($145,440)
+Sales Tax Measures [640398] Intergovernmental Revenue
+:Sales Tax Measures #343ba1
+COPS Grant [145000] Intergovernmental Revenue
+:COPS Grant #343ba1
+Prop 172 [15000] Intergovernmental Revenue
+:Prop 172 #343ba1
+Misc Grants [245000] Intergovernmental Revenue
+:Misc Grants #343ba1
+RMRA/SB1 [103944] Intergovernmental Revenue
+:RMRA/SB1 #343ba1
+Gas Taxes [138086] Intergovernmental Revenue
+:Gas Taxes #343ba1
+Intergovernmental Revenue [1851809] Budget
+:Intergovernmental Revenue #343ba1 >>
+
+Sales and Use Tax [265000] Budget
+:Sales and Use Tax #343ba1 >>
+
+Secured [2780132] Property Taxes
+VLF [482153] Property Taxes
+' VLF had been under "secured" previously
+ERAF [294602] Property Taxes
+Unsecured [127188] Property Taxes
+Real Property Transfers [150000] Property Taxes
+
+Property Taxes [3834075] Budget
+:Property Taxes #343ba1 << >>
+
+Class Fees [113000] Charges for Services
+:Class Fees #fdc407 >>
+' Planning & Building Fees includes "Charge for service" items but not "licenses and permits"
+' $294,000 for planning and $734,200 for building and $475,000 for deposits and $40,048 for public works
+Planning & Building Fees [1543248] Charges for Services
+:Planning & Building Fees #fdc407 >>
+Charges for Services [1656248] Budget
+:Charges for Services #fdc407 >>
+
+Business License Tax [125000] Miscellaneous Income
+:Business License Tax #537a49 >>
+' $48,500 licenses and permits (planning); $266,000 licenses & permits (building); $22,279 (public works)
+Planning and Building Permits [336779] Miscellaneous Income
+:Planning and Building Permits #537a49 >>
+' $5256 Motor Vehicle, $9100 Homeowners property tax relief, $600 community hall misc revenue, open space donation $1,000
+' Subtotal: 15,956
+Miscellaneous Income [477735] Budget
+:Miscellaneous Income #537a49 >>
+
+' $221,450 open space, $497,925 general
+Energy [719375] Utility Users Tax
+' $116,646 open space, $274,104 general
+Water [390750] Utility Users Tax
+' $16,951 open space, $35,732 general
+Telephone [52683] Utility Users Tax
+
+Utility Users Tax [1162808] Budget
+:Utility Users Tax #537a49 >>
+
+Garbage [130991] Franchise Fees
+Energy [98907] Franchise Fees
+Cable [92990] Franchise Fees
+Water [57440] Franchise Fees
+Franchise Fees [380328] Fees, Fines & Forfeitures
+:Franchise Fees #537a49
+
+:Telephone #537a49
+:Garbage #537a49
+:Water #537a49
+:Cable #537a49
+:Energy #537a49
+
+Fees, Fines & Forfeitures [400828] Budget
+:Fees, Fines & Forfeitures #537a49 >>
+
+' $1,482 COPS, Gas tax $2,985, open space $81,578, general $61,897, measure A $569, measure M $2,964
+Interest Earned [151475] Use of Money and Property
+:Interest Earned #4cb636 >>
+' comm hall rent $3,028, party fees $14,300, parking & field rental $11,000, parks $9,758
+Fields, Parks, Buildings [38086] Use of Money and Property
+:Fields, Parks, Buildings #4cb636 >>
+Use of Money and Property [189561] Budget
+:Use of Money and Property #4cb636 >>
+
+' library $75,000, general $720,096, ARPA $167,076
+Fund Balance [962172] Budget
+:Fund Balance #f15334 >>
+
+
+' EXPENSES
+
+Budget [3914843] Services & Supplies
+:Services & Supplies #343ba1
+
+' Includes 6000 non-departmental benefits
+Budget [2954027] Employees
+:Employees #343ba1 >>
+
+Budget [617053] Maintenance & Utilities
+:Maintenance & Utilities #343ba1
+
+' Departmental plus non-departmental
+Budget [57040] Education & Travel
+:Education & Travel #343ba1
+
+Budget [642408] Reserves
+:Reserves #4cb636
+
+Services & Supplies [565000] Charges to Applicants
+:Charges to Applicants #fdc407 >>
+Services & Supplies [90000] Class Instructors & Refunds
+:Class Instructors & Refunds #fdc407 >>
+Services & Supplies [149684] Software & Licensing
+:Software & Licensing #537a49
+Services & Supplies [140000] Town Attorney
+:Town Attorney #343ba1
+Services & Supplies [1403936] Law Enforcement
+:Law Enforcement #343ba1
+' Emergency prep committee + WFPD fuel mitigation + fire prevention + 1/2 dispatch + Emergency Services Council JPA + safety element consultant
+Services & Supplies [390050] Fire Safety
+:Fire Safety #f15334 >>
+
+Charges to Applicants [120000] Engineer
+:Engineer #fdc407
+Charges to Applicants [125000] Geologist
+:Geologist #fdc407
+Charges to Applicants [120000] Plan Check Services
+:Plan Check Services #fdc407
+Charges to Applicants [150000] Planner
+:Planner #fdc407
+Charges to Applicants [50000] Attorney
+:Attorney #fdc407
+
+Law Enforcement [997407] Sheriff
+:Sheriff #343ba1
+Law Enforcement [370479] COPS Patrol
+:COPS Patrol #343ba1
+' Dispatch cost split 50/50 between law enforcement and fire
+Law Enforcement [36050] Dispatch
+:Dispatch #343ba1
+
+Maintenance & Utilities [80000] Fire Safety
+
+Fire Safety [9000] EPC
+:EPC #f15334
+Fire Safety [190000] WFPD Fuel Mitigation
+:WFPD Fuel Mitigation #f15334
+Fire Safety [76700] Fire Prevention
+:Fire Prevention #f15334
+' Dispatch cost split 50/50 between law enforcement and fire
+Fire Safety [36050] Dispatch
+Fire Safety [18300] Emergency Services Council JPA
+:Emergency Services Council JPA #f15334
+Fire Safety [80000] ROW Trimming
+:ROW Trimming #f15334
+Fire Safety [100000] Undergrounding Study
+:Undergrounding Study #f15334
+Fire Safety [75000] Evacuation Study
+:Evacuation Study #f15334
+Fire Safety [60000] Safety Element
+:Safety Element #f15334
+Fire Safety [54500] Open Space Fire Safety
+:Open Space Fire Safety #f15334
+Fire Safety [57000] Emergency Radio
+:Emergency Radio #f15334
+
+Employees [2244981] Employee Services
+:Employee Services #343ba1 >>
+' Includes 6000 non-departmental benefits
+Employees [704044] Employee Benefits
+:Employee Benefits #343ba1 >>
+
+' town manager + clerk + finance = administration
+Employee Services [948678] Administration
+:Administration #343ba1
+' planning (including grant) + building + code compliance = P&B
+Employee Services [819895] Planning & Building
+:Planning & Building #343ba1
+Employee Services [476407] Public Works
+:Public Works #343ba1
+
+Employee Benefits [333922] Administration
+Employee Benefits [171183] Planning & Building
+Employee Benefits [192939] Public Works
+
+Education & Travel [14440] Administration
+Education & Travel [7000] Planning & Building
+Education & Travel [6600] Public Works
+
+Budget [1662381] Fixed Assets
+:Fixed Assets #4cb636
+
+' OBAG 2 resurfacing + resurfacing project + street resurfacing design
+Fixed Assets [755000] Street Resurfacing
+:Street Resurfacing #4cb636
+' Pedestrian study + rapid flashing beacon pre-design
+Fixed Assets [96000] Ped Safety
+:Ped Safety #4cb636
+' Evacuation study + undergrounding study + road remnant fire safety + 50% (frog pond+blue heron veg mgmt) + calwater radio
+Fixed Assets [286500] Fire Safety
