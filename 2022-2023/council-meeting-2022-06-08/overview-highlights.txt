@@ -112,7 +112,7 @@ Fund Balance [962172] Budget
 Budget [4701702] Services & Supplies
 :Services & Supplies #343ba1
 
-; Salaries + benefits + travel&ed
+' Salaries + benefits + travel&ed
 Budget [3554703] Employees
 :Employees #343ba1 >>
 
@@ -127,7 +127,7 @@ Services & Supplies [475000] Charges to Applicants
 :Charges to Applicants #fdc407 >>
 Services & Supplies [90000] Class Instructors & Refunds
 :Class Instructors & Refunds #fdc407 >>
-; Clerk 4350 + finance 43924 + planning 12700 + building 1500 + community hall 4300 + public works 14800+gis 1000 + non-dept 86790
+' Clerk 4350 + finance 43924 + planning 12700 + building 1500 + community hall 4300 + public works 14800+gis 1000 + non-dept 86790
 Services & Supplies [169364] Software & Licensing
 :Software & Licensing #537a49
 Services & Supplies [140000] Town Attorney
@@ -158,7 +158,7 @@ Law Enforcement [161482] COPS Patrol
 Law Enforcement [35078] Dispatch
 :Dispatch #343ba1
 
-; WFPD fuel mitigation 263004 + fire prevention 76700
+' WFPD fuel mitigation 263004 + fire prevention 76700
 Maintenance & Utilities [339704] Fire Safety
 
 Fire Safety [12000] EPC
@@ -192,15 +192,15 @@ Employee Services [907934] Planning & Building
 Employee Services [558030] Public Works
 :Public Works #343ba1
 
-; tm 237951 + clerk 54220 + fin 126455
+' tm 237951 + clerk 54220 + fin 126455
 Employee Benefits [418626] Administration
-; plan 139554 + build 57872 + comply 4116
+' plan 139554 + build 57872 + comply 4116
 Employee Benefits [201542] Planning & Building
 Employee Benefits [205155] Public Works
 
-; council/commissions 500+1500 + town manager 13240+4800 + clerk 1000+1000 + finance 1500+500+300 + non-departmental 29000
+' council/commissions 500+1500 + town manager 13240+4800 + clerk 1000+1000 + finance 1500+500+300 + non-departmental 29000
 Education & Travel [53340] Administration
-; 3900+3000 + 2500+1500
+' 3900+3000 + 2500+1500
 Education & Travel [10900] Planning & Building
 Education & Travel [7400] Public Works
 
@@ -215,5 +215,5 @@ Fixed Assets [286853] Ped & Traffic Safety
 :Ped Safety #4cb636
 ' spring down/blue heron vegt mgmt 52600 + ford field 5500 + frog pond 45000 + radio antenna water tower 60000
 Fixed Assets [163100] Fire Safety
-; Storm drain 15000 + trails rehab 20000 + town center walkway 20000 + town center tennis DG 30000 + town center maintenance 3500 + bio consultant 6000 + div 730 capex 341900
+' Storm drain 15000 + trails rehab 20000 + town center walkway 20000 + town center tennis DG 30000 + town center maintenance 3500 + bio consultant 6000 + div 730 capex 341900
 Fixed Assets [436400] Facilities
