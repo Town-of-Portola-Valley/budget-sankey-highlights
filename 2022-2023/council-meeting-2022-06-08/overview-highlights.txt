@@ -12,9 +12,6 @@
 
 :Budget #000000
 
-Sales and Use Tax [265000] Budget
-:Sales and Use Tax #343ba1 >>
-
 Secured [2780132] Property Taxes
 :Secured #343ba1
 ' VLF had been under "secured" previously
@@ -29,6 +26,9 @@ Real Property Transfers [150000] Property Taxes
 
 Property Taxes [3834075] Budget
 :Property Taxes #343ba1 << >>
+
+Sales and Use Tax [265000] Budget
+:Sales and Use Tax #343ba1 >>
 
 ARPA [564381] Intergovernmental Revenue
 :ARPA #f15334 >>
@@ -45,7 +45,7 @@ RMRA/SB1 [103944] Intergovernmental Revenue
 :RMRA/SB1 #343ba1
 Gas Taxes [138086] Intergovernmental Revenue
 :Gas Taxes #343ba1
-Intergovernmental Revenue [1851809] Budget
+Intergovernmental Revenue [2035618] Budget
 :Intergovernmental Revenue #343ba1 >>
 
 Class Fees [113000] Charges for Services
@@ -90,7 +90,7 @@ Business License Tax [125000] Miscellaneous Income
 :Business License Tax #537a49 >>
 ' $5256 Motor Vehicle, $9100 Homeowners property tax relief, $600 community hall misc revenue, open space donation $1,000
 ' Subtotal: 15,956
-Miscellaneous Income [477735] Budget
+Miscellaneous Income [478274] Budget
 :Miscellaneous Income #537a49 >>
 
 ' $1,482 COPS, Gas tax $2,985, open space $81,578, general $61,897, measure A $569, measure M $2,964
@@ -99,7 +99,7 @@ Interest Earned [151475] Use of Money and Property
 ' comm hall rent $3,028, party fees $14,300, parking & field rental $11,000, parks $9,758
 Fields, Parks, Buildings [38086] Use of Money and Property
 :Fields, Parks, Buildings #4cb636 >>
-Use of Money and Property [189561] Budget
+Use of Money and Property [238086] Budget
 :Use of Money and Property #4cb636 >>
 
 ' library $75,000, general $720,096, ARPA $167,076
@@ -122,7 +122,10 @@ Budget [643825] Maintenance & Utilities
 Budget [508853] Reserves
 :Reserves #4cb636
 
-'
+
+Services & Supplies [2165641] Other
+:Other #343ba1
+
 Services & Supplies [475000] Charges to Applicants
 :Charges to Applicants #fdc407 >>
 Services & Supplies [90000] Class Instructors & Refunds
@@ -143,16 +146,15 @@ Charges to Applicants [120000] Engineer
 Charges to Applicants [125000] Geologist
 :Geologist #fdc407
 Charges to Applicants [30000] C&D Deposit
-:Plan Check Services #fdc407
+:C&D Deposit #fdc407
 Charges to Applicants [150000] Planner
 :Planner #fdc407
 Charges to Applicants [50000] Town Attorney
-:Attorney #fdc407
 
 Law Enforcement [1333845] Sheriff
 :Sheriff #343ba1
-' $15,000 + $145,000 + $1482
-Law Enforcement [161482] COPS Patrol
+' $15,000 + $145,000
+Law Enforcement [160000] COPS Patrol
 :COPS Patrol #343ba1
 ' Dispatch cost split 50/50 between law enforcement and fire
 Law Enforcement [35078] Dispatch
@@ -170,11 +172,17 @@ Fire Safety [76700] Fire Prevention
 ' Dispatch cost split 50/50 between law enforcement and fire
 Fire Safety [35078] Dispatch
 Fire Safety [64000] Safety Element
+:Safety Element #f15334
 Fire Safety [3000] Emergency Prep Training
+:Emergency Prep Training #f15334
 Fire Safety [18300] Emergency Services Council JPA
 :Emergency Services Council JPA #f15334
 ' spring down/blue heron 52600 + ford field 5500 + frog pond 45000
-Fire Safety [103100] Parks and Fields Maintenance
+Fire Safety [103100] Parks and Fields
+:Parks and Fields #f15334
+Fire Safety [60000] Radio Antenna
+:Radio Antenna #f15334
+
 
 Employees [2646740] Employee Services
 :Employee Services #343ba1 >>
@@ -182,6 +190,7 @@ Employees [2646740] Employee Services
 Employees [836323] Employee Benefits
 :Employee Benefits #343ba1 >>
 Employees [71640] Education & Travel
+:Education & Travel #343ba1 >>
 
 ' town manager + clerk + finance = administration
 Employee Services [1180776] Administration
@@ -204,7 +213,7 @@ Education & Travel [53340] Administration
 Education & Travel [10900] Planning & Building
 Education & Travel [7400] Public Works
 
-Budget [1] Fixed Assets
+Budget [1624025] Fixed Assets
 :Fixed Assets #4cb636
 
 ' OBAG 2 resurfacing 65000 + resurfacing project 585598+61074 + street resurfacing design 70000 + pavement management system 16000
@@ -212,8 +221,9 @@ Fixed Assets [797672] Street Resurfacing
 :Street Resurfacing #4cb636
 ' Portola Rd Parking Safety 20000 + rapid flashing beacon 61000+180853 + speed survey 25000
 Fixed Assets [286853] Ped & Traffic Safety
-:Ped Safety #4cb636
+:Ped & Traffic Safety #4cb636
 ' spring down/blue heron vegt mgmt 52600 + ford field 5500 + frog pond 45000 + radio antenna water tower 60000
 Fixed Assets [163100] Fire Safety
 ' Storm drain 15000 + trails rehab 20000 + town center walkway 20000 + town center tennis DG 30000 + town center maintenance 3500 + bio consultant 6000 + div 730 capex 341900
-Fixed Assets [436400] Facilities
+Fixed Assets [376400] Facilities
+:Facilities #4cb636
