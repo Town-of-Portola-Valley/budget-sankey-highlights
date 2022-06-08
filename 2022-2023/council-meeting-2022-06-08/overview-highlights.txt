@@ -109,112 +109,111 @@ Fund Balance [962172] Budget
 
 ' EXPENSES
 
-Budget [1] Services & Supplies
+Budget [4701702] Services & Supplies
 :Services & Supplies #343ba1
 
-' Includes 6000 non-departmental benefits
-Budget [1] Employees
+; Salaries + benefits + travel&ed
+Budget [3554703] Employees
 :Employees #343ba1 >>
 
-Budget [1] Maintenance & Utilities
+Budget [643825] Maintenance & Utilities
 :Maintenance & Utilities #343ba1
 
-' Departmental plus non-departmental
-Budget [1] Education & Travel
-:Education & Travel #343ba1
-
-Budget [1] Reserves
+Budget [508853] Reserves
 :Reserves #4cb636
 
-Services & Supplies [1] Charges to Applicants
+'
+Services & Supplies [475000] Charges to Applicants
 :Charges to Applicants #fdc407 >>
-Services & Supplies [1] Class Instructors & Refunds
+Services & Supplies [90000] Class Instructors & Refunds
 :Class Instructors & Refunds #fdc407 >>
-Services & Supplies [1] Software & Licensing
+; Clerk 4350 + finance 43924 + planning 12700 + building 1500 + community hall 4300 + public works 14800+gis 1000 + non-dept 86790
+Services & Supplies [169364] Software & Licensing
 :Software & Licensing #537a49
-Services & Supplies [1] Town Attorney
+Services & Supplies [140000] Town Attorney
 :Town Attorney #343ba1
-Services & Supplies [1] Law Enforcement
+Services & Supplies [1528923] Law Enforcement
 :Law Enforcement #343ba1
-' Emergency prep committee + WFPD fuel mitigation + fire prevention + 1/2 dispatch + Emergency Services Council JPA + safety element consultant
-Services & Supplies [1] Fire Safety
+' Emergency prep committee 12000 + 1/2 dispatch 35078 + Emergency Services Council JPA 18300 + safety element consultant 64000 + e-prep training 3000 [open space cleanup from capex]
+Services & Supplies [132774] Fire Safety
 :Fire Safety #f15334 >>
 
-Charges to Applicants [1] Engineer
+Charges to Applicants [120000] Engineer
 :Engineer #fdc407
-Charges to Applicants [1] Geologist
+Charges to Applicants [125000] Geologist
 :Geologist #fdc407
-Charges to Applicants [1] Plan Check Services
+Charges to Applicants [30000] C&D Deposit
 :Plan Check Services #fdc407
-Charges to Applicants [1] Planner
+Charges to Applicants [150000] Planner
 :Planner #fdc407
-Charges to Applicants [1] Attorney
+Charges to Applicants [50000] Town Attorney
 :Attorney #fdc407
 
-Law Enforcement [1] Sheriff
+Law Enforcement [1333845] Sheriff
 :Sheriff #343ba1
-Law Enforcement [1] COPS Patrol
+' $15,000 + $145,000 + $1482
+Law Enforcement [161482] COPS Patrol
 :COPS Patrol #343ba1
 ' Dispatch cost split 50/50 between law enforcement and fire
-Law Enforcement [1] Dispatch
+Law Enforcement [35078] Dispatch
 :Dispatch #343ba1
 
-Maintenance & Utilities [1] Fire Safety
+; WFPD fuel mitigation 263004 + fire prevention 76700
+Maintenance & Utilities [339704] Fire Safety
 
-Fire Safety [1] EPC
+Fire Safety [12000] EPC
 :EPC #f15334
-Fire Safety [1] WFPD Fuel Mitigation
+Fire Safety [263004] WFPD Fuel Mitigation
 :WFPD Fuel Mitigation #f15334
-Fire Safety [1] Fire Prevention
+Fire Safety [76700] Fire Prevention
 :Fire Prevention #f15334
 ' Dispatch cost split 50/50 between law enforcement and fire
-Fire Safety [1] Dispatch
-Fire Safety [1] Emergency Services Council JPA
+Fire Safety [35078] Dispatch
+Fire Safety [64000] Safety Element
+Fire Safety [3000] Emergency Prep Training
+Fire Safety [18300] Emergency Services Council JPA
 :Emergency Services Council JPA #f15334
-Fire Safety [1] ROW Trimming
-:ROW Trimming #f15334
-Fire Safety [1] Undergrounding Study
-:Undergrounding Study #f15334
-Fire Safety [1] Evacuation Study
-:Evacuation Study #f15334
-Fire Safety [1] Safety Element
-:Safety Element #f15334
-Fire Safety [1] Open Space Fire Safety
-:Open Space Fire Safety #f15334
-Fire Safety [1] Emergency Radio
-:Emergency Radio #f15334
+' spring down/blue heron 52600 + ford field 5500 + frog pond 45000
+Fire Safety [103100] Parks and Fields Maintenance
 
-Employees [1] Employee Services
+Employees [2646740] Employee Services
 :Employee Services #343ba1 >>
-' Includes 6000 non-departmental benefits
-Employees [1] Employee Benefits
+' Includes 11000 non-departmental benefits (1k cafeteria, 10k wellness)
+Employees [836323] Employee Benefits
 :Employee Benefits #343ba1 >>
+Employees [71640] Education & Travel
 
 ' town manager + clerk + finance = administration
-Employee Services [1] Administration
+Employee Services [1180776] Administration
 :Administration #343ba1
-' planning (including grant) + building + code compliance = P&B
-Employee Services [1] Planning & Building
+' planning (including grant) 483628+245000 + building 164866 + code compliance 14440 = P&B
+Employee Services [907934] Planning & Building
 :Planning & Building #343ba1
-Employee Services [1] Public Works
+Employee Services [558030] Public Works
 :Public Works #343ba1
 
-Employee Benefits [1] Administration
-Employee Benefits [1] Planning & Building
-Employee Benefits [1] Public Works
+; tm 237951 + clerk 54220 + fin 126455
+Employee Benefits [418626] Administration
+; plan 139554 + build 57872 + comply 4116
+Employee Benefits [201542] Planning & Building
+Employee Benefits [205155] Public Works
 
-Education & Travel [1] Administration
-Education & Travel [1] Planning & Building
-Education & Travel [1] Public Works
+; council/commissions 500+1500 + town manager 13240+4800 + clerk 1000+1000 + finance 1500+500+300 + non-departmental 29000
+Education & Travel [53340] Administration
+; 3900+3000 + 2500+1500
+Education & Travel [10900] Planning & Building
+Education & Travel [7400] Public Works
 
 Budget [1] Fixed Assets
 :Fixed Assets #4cb636
 
-' OBAG 2 resurfacing + resurfacing project + street resurfacing design
-Fixed Assets [1] Street Resurfacing
+' OBAG 2 resurfacing 65000 + resurfacing project 585598+61074 + street resurfacing design 70000 + pavement management system 16000
+Fixed Assets [797672] Street Resurfacing
 :Street Resurfacing #4cb636
-' Pedestrian study + rapid flashing beacon pre-design
-Fixed Assets [1] Ped Safety
+' Portola Rd Parking Safety 20000 + rapid flashing beacon 61000+180853 + speed survey 25000
+Fixed Assets [286853] Ped & Traffic Safety
 :Ped Safety #4cb636
-' Evacuation study + undergrounding study + road remnant fire safety + 50% (frog pond+blue heron veg mgmt) + calwater radio
-Fixed Assets [1] Fire Safety
+' spring down/blue heron vegt mgmt 52600 + ford field 5500 + frog pond 45000 + radio antenna water tower 60000
+Fixed Assets [163100] Fire Safety
+; Storm drain 15000 + trails rehab 20000 + town center walkway 20000 + town center tennis DG 30000 + town center maintenance 3500 + bio consultant 6000 + div 730 capex 341900
+Fixed Assets [436400] Facilities
